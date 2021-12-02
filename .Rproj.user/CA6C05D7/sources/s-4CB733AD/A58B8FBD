@@ -1,0 +1,27 @@
+{
+    "id": "A58B8FBD",
+    "path": "~/r-projects-scrapbook/2021-12-01_20-00-53_foobar/parameterised-report.Rmd",
+    "project_path": "parameterised-report.Rmd",
+    "type": "r_markdown",
+    "hash": "334328204",
+    "contents": "",
+    "dirty": false,
+    "created": 1638389053455.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "24,46",
+        "scrollLine": "0"
+    },
+    "folds": "0|3|5|0|\n7|27|9|0|\n13|18|16|0|\n29|6|48|0|\n",
+    "lastKnownWriteTime": 1638392863,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1638392863558,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,20 @@
+library(tidyverse)
+
+msleep %>% 
+  select(doo)
+
+
+foo <- msleep %>% 
+  group_by(vore) %>% 
+  slice_max(sleep, n = 4)
+
+class(foo)
+
+msleep %>% 
+  slice_max(sleep, n = 4)
+
+msleep %>% 
+  slice_head(sleep, n = 4)
+
+msleep %>% 
+  select(doo)

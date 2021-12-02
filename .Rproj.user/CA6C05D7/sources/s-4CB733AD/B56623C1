@@ -1,0 +1,27 @@
+{
+    "id": "B56623C1",
+    "path": "~/r-projects-scrapbook/2021-12-01_20-00-53_foobar/generate-reports.R",
+    "project_path": "generate-reports.R",
+    "type": "r_source",
+    "hash": "665123538",
+    "contents": "",
+    "dirty": false,
+    "created": 1638389246818.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "8,5",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1638447493,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1638447493421,
+    "read_only": false,
+    "read_only_alternatives": []
+}

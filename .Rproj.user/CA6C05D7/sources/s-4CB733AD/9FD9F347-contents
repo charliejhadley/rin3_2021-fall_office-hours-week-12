@@ -1,0 +1,4 @@
+library(tidyverse)
+library(rmarkdown)
+
+render("parameterised-report.Rmd", output_file = "Northern-Ireland-report.Rmd", params = list(country = "Northern Ireland"))

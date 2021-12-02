@@ -1,0 +1,16 @@
+---
+title: "The Report"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Executive Summary
+
+Stuff.
+
+```{r, child='scotland.Rmd'}
+```
+

@@ -1,0 +1,12 @@
+---
+title: "Scotland"
+output: html_document
+---
+
+```{r setup-scotland, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Scotland
+
+Is up north.

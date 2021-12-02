@@ -1,0 +1,50 @@
+---
+title: "Devolved Countries in the UK"
+output: html_document
+params:
+  country: "Scotland"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This report is about `r params$country`
+
+```{r, eval=FALSE}
+the_data <- read_csv("pretend.csv") %>% 
+  filter(country == params$country)
+```
+
+
+```{r}
+gss_cat %>% 
+  select(rincome, relig) %>% 
+  arrange(rincome, relig) %>% 
+  count(rincome, relig) %>% 
+  complete(rincome, relig, fill = list(n = 0))
+```
+
+
+
+```{r}
+library(tidyverse)
+
+gg_sleep <- msleep %>% 
+  group_by(vore) %>% 
+  slice_max(sleep_total, n = 5) %>% 
+  ungroup() %>% 
+  ggplot(aes(x = sleep_total,
+             y = name)) +
+  geom_col() +
+  facet_wrap(vore ~ ., scales = "free_y")
+
+ggsave("gg_sleep.png",
+       gg_sleep,
+       width = 12,
+       height = 6,
+       units = "cm")
+
+knitr::include_graphics("gg_sleep.png")
+```
+
